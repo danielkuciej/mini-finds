@@ -59,3 +59,47 @@ ul li:last-child {
   border: 2px solid var(--color-button-darker);
   color: #fff9db;
 }
+
+/* MAIN SECTION */
+
+/* PROMOTION SECTION */
+.promotion-section {
+  padding: 5rem 35rem;
+  border-top: 1px solid #ddd;
+}
+
+.week-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.week-days a {
+  font-size: 14px;
+}
+
+.week-day {
+  border-left: 1px solid #ddd;
+  padding-left: 45px;
+}
+
+.week-day:first-child {
+  border: none;
+  padding-left: 0px;
+}
+
+.active {
+  border: 2px solid var(--color-button-darker);
+  border-radius: 50px;
+}
+
+.product-box {
+  display: flex;
+  gap: 80px;
+  padding-top: 50px;
+}
+
+.product-box_img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+}
