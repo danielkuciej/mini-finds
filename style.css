@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #d9edbf;
+  --color-secondary: #2c7865;
+  --color-button: #ff9800;
+  --color-button-darker: #f08c00;
+  --color-tertiary: #90d26d;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +55,7 @@ ul li:last-child {
 .btn_cart {
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: #f59f00;
-  border: 2px solid #f08c00;
+  background-color: var(--color-button);
+  border: 2px solid var(--color-button-darker);
   color: #fff9db;
 }
