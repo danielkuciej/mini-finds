@@ -103,3 +103,12 @@ ul li:last-child {
   width: auto;
   border-radius: 10px;
 }
+
+.product-box_info ul {
+  list-style: none;
+}
+
+.product-box_info {
+  font-size: 16px;
+  font-weight: 400;
+}
