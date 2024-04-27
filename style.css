@@ -63,6 +63,7 @@ ul li:last-child {
 /* MAIN SECTION */
 
 /* PROMOTION SECTION */
+/* Week days section */
 .promotion-section {
   padding: 5rem 35rem;
   border-top: 1px solid #ddd;
@@ -74,17 +75,12 @@ ul li:last-child {
 }
 
 .week-days a {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .week-day {
   border-left: 1px solid #ddd;
-  padding-left: 45px;
-}
-
-.week-day:first-child {
-  border: none;
-  padding-left: 0px;
+  padding: 5px 24px;
 }
 
 .active {
@@ -92,6 +88,7 @@ ul li:last-child {
   border-radius: 50px;
 }
 
+/* Product-box section */
 .product-box {
   display: flex;
   gap: 80px;
