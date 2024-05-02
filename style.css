@@ -23,6 +23,11 @@ body {
   background-color: #f3f3f3;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* NAVIGATION */
 .nav {
   display: flex;
@@ -65,12 +70,13 @@ ul li:last-child {
 /* PROMOTION SECTION */
 /* Week days section */
 .promotion-section {
-  padding: 5rem 35rem;
+  margin: 5rem 35rem;
   border-top: 1px solid #ddd;
 }
 
 .week-days {
   display: flex;
+  justify-content: center;
   justify-content: space-between;
 }
 
@@ -83,6 +89,10 @@ ul li:last-child {
   padding: 5px 24px;
 }
 
+.week-day:first-child {
+  border-left: none;
+}
+
 .active {
   border: 2px solid var(--color-button-darker);
   border-radius: 50px;
@@ -91,14 +101,12 @@ ul li:last-child {
 /* Product-box section */
 .product-box {
   display: flex;
-  height: 800px;
+  height: 250px;
   gap: 10px;
   padding-top: 50px;
 }
 
 .product-box_img {
-  height: 200px;
-  width: auto;
   border-radius: 10px;
 }
 
@@ -117,18 +125,20 @@ li {
 
 .discount-prompt {
   width: 150px;
-  height: 200px;
+  /* height: 200px; */
   background-color: blue;
 }
 
 .prompt {
   color: white;
   font-size: 32px;
+  /* padding-right: 180px; */
 }
 
 .prompt-left {
   transform: rotate(-90deg);
 }
+
 .prompt-right {
   transform: rotate(-90deg);
 }
