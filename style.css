@@ -4,6 +4,15 @@
   --color-button: #ff9800;
   --color-button-darker: #f08c00;
   --color-tertiary: #90d26d;
+  --gradient-cat-gandh: linear-gradient(to right, #3498db, #2ecc71);
+  --color-cat-gift: #f1c40f;
+  --color-cat-office: #2c3e50;
+  --gradient-cat-sport: linear-gradient(
+    to top right,
+    #e74c3c,
+    #f1c40f,
+    #1abc9c
+  );
 }
 
 * {
@@ -147,6 +156,7 @@ li {
 /* CATEGORIES */
 .categories {
   margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .categories ul {
@@ -163,4 +173,33 @@ li {
 .cat:hover {
   color: var(--color-button);
   font-weight: 500;
+  cursor: pointer;
+}
+
+/* PRODUCT SECTION */
+.product-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.product ul {
+  list-style: none;
+}
+
+.product {
+}
+
+.product-img {
+  height: 250px;
+  border-radius: 10px;
+}
+
+.product_cat {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 50px;
+  background-image: var(--gradient-cat-gandh);
 }
