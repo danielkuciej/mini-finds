@@ -355,3 +355,18 @@ footer ul {
   font-weight: 400;
   color: #767676;
 }
+
+.copyright a:link {
+  color: #767676;
+  /* text-decoration: none; */
+}
+
+.copyright a:visited {
+  color: #767676;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #767676;
+  text-decoration: none;
+}
