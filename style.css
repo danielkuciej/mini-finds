@@ -43,7 +43,7 @@ body {
   display: flex;
   background-color: white;
   justify-content: space-between;
-  padding: 0px 50px 0px 10px;
+  padding: 0px 50px 0px 20px;
 }
 
 .nav_links {
@@ -52,10 +52,9 @@ body {
   align-items: center;
 }
 
-.nav_logo {
+.logo {
   height: 75px;
   width: auto;
-  padding-left: 10px;
 }
 
 .nav_item {
@@ -172,7 +171,6 @@ li {
   margin: 0px auto;
 
   display: flex;
-  justify-content: center;
   justify-content: space-between;
 }
 
@@ -303,4 +301,40 @@ li {
 
 .product_btns button {
   margin-right: 10px;
+}
+
+/* FOOTER */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0px auto;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.ionicon {
+  width: 30px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.footer-container li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-container li:hover {
+  color: var(--color-button);
+  cursor: pointer;
+}
+
+.column p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 30px;
 }
