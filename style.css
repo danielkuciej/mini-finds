@@ -13,6 +13,7 @@
     #f1c40f,
     #1abc9c
   );
+  --color-gadget: #9b59b6;
 }
 
 * {
@@ -176,11 +177,82 @@ li {
   cursor: pointer;
 }
 
+.cat--handg {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 50px;
+  background-image: var(--gradient-cat-handg);
+}
+.cat--handg:hover {
+  color: white;
+  cursor: default;
+}
+
+.cat--gift {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 50px;
+  background-color: var(--color-cat-gift);
+}
+.cat--gift:hover {
+  color: white;
+  cursor: default;
+}
+
+.cat--gadget {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 50px;
+  background-color: var(--color-gadget);
+}
+.cat--gadget:hover {
+  color: white;
+  cursor: default;
+}
+
+.cat--office {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 50px;
+background-color: var(--color-cat-office);
+}
+.cat--office:hover {
+  color: white;
+  cursor: default;
+}
+
+.cat--sport {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 50px;
+background-image: var(--gradient-cat-sport);
+}
+.cat--sport:hover {
+  color: white;
+  cursor: default;
+}
+
 /* PRODUCT SECTION */
 .product-section {
   display: grid;
   justify-content: space-between;
   grid-template-columns: 300px 300px 300px;
+  gap: 300px
   margin-bottom: 500px;
 }
 
@@ -204,21 +276,6 @@ li {
   display: flex;
   gap: 0.4rem;
   margin-bottom: 15px;
-}
-
-.cat--handg {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 500;
-  padding: 7px 20px;
-  border-radius: 50px;
-  background-image: var(--gradient-cat-handg);
-}
-
-.cat--handg:hover {
-  color: white;
-  cursor: default;
 }
 
 .product_name {
