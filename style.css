@@ -121,13 +121,14 @@ ul li:last-child {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-top: 50px;
+  padding-top: 35px;
   margin-bottom: 150px;
 }
 
 .product-box_img {
   height: 250px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-radius: 2px;
 }
 
 .product-box_info ul {
@@ -148,19 +149,27 @@ ul li:last-child {
   height: 250px;
   /* height: 200px; */
   background-color: blue;
-}
-
-.prompt {
   color: white;
   font-size: 32px;
+  padding: 5.2rem 1rem;
 }
 
 .prompt-left {
   transform: rotate(-90deg);
 }
 
-.prompt-right {
-  transform: rotate(-90deg);
+.left {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.right {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.rev-radius-line .prompt-right {
+  transform: rotate(90deg);
+  padding: 1rem 4.2rem;
 }
 
 /* CATEGORIES */
@@ -259,7 +268,7 @@ ul li:last-child {
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 50px;
-  margin: 20px 0px 100px 0px;
+  margin: 20px 10px 100px 10px;
 }
 
 .product {
@@ -311,6 +320,7 @@ ul li:last-child {
   width: 1100px;
   margin: 0px auto;
   margin-bottom: 100px;
+  padding: 0px 10px;
 }
 
 footer ul {
@@ -369,4 +379,9 @@ footer ul {
 .copyright a:hover {
   color: #767676;
   text-decoration: none;
+}
+
+/* For change padding dimensions in product-content in promotion section */
+.promo-cont {
+  padding: 1rem 1.6rem;
 }
