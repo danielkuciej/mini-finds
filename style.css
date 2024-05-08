@@ -387,7 +387,7 @@ footer ul {
 
 .ionicon {
   width: 35px;
-  color: #767676;
+  stroke: var(--color-secondary);
 }
 
 .social-links {
